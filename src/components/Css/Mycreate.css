@@ -1,0 +1,101 @@
+.form-section {
+    display: flex;
+    margin-bottom: 20px;
+    float: left;
+    
+  }
+
+  .form-main{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .img-add{
+    height: 100px; 
+    width: 50%;
+    
+    
+    
+  }
+
+  .listadd{
+    
+    align-items: center;
+  }
+  
+  .table-section {
+    margin-bottom: 40px;
+  }
+  
+  .item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+
+  
+  img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    
+    display: table;
+    clear: both;
+  }
+
+  /* .row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  } */
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .tags {
+    margin-bottom: 10px;
+  }
+  
+  .tag {
+    display: inline-block;
+    background-color: #ccc;
+    color: #fff;
+    padding: 5px 10px;
+    margin-right: 5px;
+    font-size: 12px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+    
