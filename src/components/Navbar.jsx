@@ -58,10 +58,11 @@ function Navbar() {
     <>
       <div className="nav">
         <div className="navstart">
+          
+          <div className="search">
           <NavLink aria-current="page" to="/">
             <img src={ticket} alt="" />
           </NavLink>
-          <div className="search">
             <input
               type="text"
               className="search-input"
@@ -80,7 +81,7 @@ function Navbar() {
             </button>
             <div className="favorite">
               <NavLink aria-current="page" to="/takip">
-                Kayıt edilen
+                Favoriler
                 <BookmarksIcon fontSize="large" />{" "}
                 <span className="hot">{favoriler.length}</span>
               </NavLink>
